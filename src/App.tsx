@@ -5,7 +5,7 @@ import Projetos from './containers/Projetos'
 import Sidebar from './containers/Sidebar'
 import Sobre from './containers/Sobre'
 import EstiloGlobal, { Container } from './styles'
-import temaLight from './themes/Light'
+// import temaLight from './themes/Light'
 import temaDark from './themes/Dark'
 
 function App() {
@@ -16,10 +16,10 @@ function App() {
   }
 
   return (
-    <ThemeProvider theme={estaUsandoTemaDark ? temaDark : temaLight}>
+    <ThemeProvider theme={temaDark}>
       <EstiloGlobal />
       <Container>
-        <Sidebar trocaTema={trocaTema}/>
+        <Sidebar/>
         <main>
           <Sobre />
           <Projetos />

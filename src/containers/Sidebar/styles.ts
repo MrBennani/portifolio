@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { P } from "../../components/Paragrafo/styles";
 
-import { ThemeLight } from "../../themes/Light";
+// import { ThemeLight } from "../../themes/Light";
 import { ThemeDark } from '../../themes/Dark';
 
 export const Descricao = styled(P)`
@@ -11,10 +11,10 @@ export const Descricao = styled(P)`
 export const BotaoTema = styled.button`
     border-radius: 12px;
     padding: 8px;
-    color: ${(props) => (props.theme as ThemeLight).corDeFundo};
+    color: ${(props) => (props.theme as ThemeDark).corDeFundo};
     font-size: 10px;
     font-weight: bold;
-    background-color: ${(props) => (props.theme as ThemeLight).corPrincipal};
+    background-color: ${(props) => (props.theme as ThemeDark).corPrincipal};
     cursor: pointer;
 `
 export const SidebarContainer = styled.div`

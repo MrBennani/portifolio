@@ -5,7 +5,7 @@ import Titulo from "../../components/titulo"
 import { Descricao, BotaoTema, SidebarContainer } from './styles'
 
 type Props = {
-    trocaTema: () => void;
+    // trocaTema: () => void;
 }
 
 const Sidebar = (props: Props) => (
@@ -15,7 +15,7 @@ const Sidebar = (props: Props) => (
             <Titulo fontSize={20}>Victor Bonini</Titulo>
             <Paragrafo tipo="secundario" fontSize={16}>Mr. Bennani</Paragrafo>
             <Descricao tipo="principal" fontSize={12}> Engenheiro Front-end</Descricao>
-            <BotaoTema onClick={props.trocaTema}>Trocar tema</BotaoTema>
+            <BotaoTema>Trocar tema</BotaoTema>
         </SidebarContainer>
     </aside>
 )

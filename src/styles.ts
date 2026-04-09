@@ -1,7 +1,7 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
-import { ThemeLight } from './themes/Light'
-import { ThemeDark } from './themes/Dark';
+// import { ThemeLight } from './themes/Light'
+import { ThemeDark } from './themes/Dark'
 
 const EstiloGlobal = createGlobalStyle`
     * {
