@@ -3,7 +3,6 @@ import ProjetoDois from "../../components/ProjetoDois";
 import ProjetoTres from "../../components/ProjetoTres";
 import ProjetoQuatro from "../../components/ProjetoQuatro";
 import ProjetoCinco from "../../components/ProjetoCinco";
-import ProjetoSeis from "../../components/ProjetoSeis";
 
 import Titulo from "../../components/titulo";
 
@@ -27,9 +26,6 @@ const Projetos = () => (
             </li>
             <li>
                 <ProjetoCinco />
-            </li>
-            <li>
-                <ProjetoSeis />
             </li>
         </Lista>
     </section>
