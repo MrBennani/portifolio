@@ -15,7 +15,7 @@ const Sidebar = (props: Props) => (
             <Titulo fontSize={18}>Victor Bonini</Titulo>
             <Paragrafo tipo="secundario" fontSize={16}>Mr. Bennani</Paragrafo>
             <Descricao tipo="principal" fontSize={12}> Engenheiro Front-end</Descricao>
-            {/* <BotaoTema>Trocar tema</BotaoTema> */}
+            <BotaoTema>Trocar tema</BotaoTema>
         </SidebarContainer>
     </aside>
 )
