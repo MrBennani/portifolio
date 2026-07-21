@@ -9,11 +9,6 @@ import EstiloGlobal, { Container } from './styles'
 import temaDark from './themes/Dark'
 
 function App() {
-  // const [estaUsandoTemaDark, setEstaUsandoTemaDark] = useState(false)
-
-  // function trocaTema() {
-  //   setEstaUsandoTemaDark(!estaUsandoTemaDark)
-  // }
 
   return (
     <ThemeProvider theme={temaDark}>

@@ -7,6 +7,7 @@ import ProjetoCinco from "../../components/ProjetoCinco";
 import Titulo from "../../components/titulo";
 
 import { Lista } from './styles'
+import ProjetoSeis from "../../components/ProjetoSeis";
 
 const Projetos = () => (
     <section>
@@ -26,6 +27,9 @@ const Projetos = () => (
             </li>
             <li>
                 <ProjetoCinco />
+            </li>
+            <li>
+                <ProjetoSeis />
             </li>
         </Lista>
     </section>

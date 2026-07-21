@@ -12,10 +12,10 @@ const Sidebar = (props: Props) => (
     <aside>
         <SidebarContainer>
             <Avatar />
-            <Titulo fontSize={20}>Victor Bonini</Titulo>
+            <Titulo fontSize={18}>Victor Bonini</Titulo>
             <Paragrafo tipo="secundario" fontSize={16}>Mr. Bennani</Paragrafo>
             <Descricao tipo="principal" fontSize={12}> Engenheiro Front-end</Descricao>
-            <BotaoTema>Trocar tema</BotaoTema>
+            {/* <BotaoTema>Trocar tema</BotaoTema> */}
         </SidebarContainer>
     </aside>
 )
